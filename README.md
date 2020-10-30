@@ -40,12 +40,11 @@ Ansible Playbook for setting up the ELK/EFK Stack and Filebeat client on remote 
 ## Requirements
    - RHEL7 or CentOS7 server/client with no modifications and t2.medium size
    - RHEL7/CentOS7 or Fedora for ELK clients using Filebeat
-   - ELK/EFK server with at least 8G of memory (you can try with less but 5.x series is quite demanding - try 2.4 series if you have scarce resources).
+   - ELK server with at least 4G of memory 
    
 
 ## Notes
    - Current ELK version is 6.x 
-   - I will update this playbook for major ELK versions going forward as time allows.
    - nginx ports default to 443 for Kibana and SSL cert retrieval (configurable)
    - Uses OpenJDK for Java
    - It's fairly quick, takes around 3minutes on a test VM
