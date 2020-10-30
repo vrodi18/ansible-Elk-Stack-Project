@@ -32,6 +32,12 @@ Ansible Playbook for setting up the ELK/EFK Stack and Filebeat client on remote 
      * Installs FileBeat agent on remote VMs to collect logs and push them to the main server.
 
 ![ELK](/image/1.png?raw=true "How it works")
+
+## Other competing tools available in the market
+* Splunk
+* LogDNA
+* Sumo Logic
+* Loggly
      
 ## Requirements
    - RHEL7 or CentOS7 server/client with no modifications and t2.medium size
