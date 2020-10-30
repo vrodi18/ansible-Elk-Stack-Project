@@ -30,6 +30,8 @@ Ansible Playbook for setting up the ELK/EFK Stack and Filebeat client on remote 
      * Uses Nginx as a reverse proxy for Kibana.
      * Installs SSL certificate on the server VM. 
      * Installs FileBeat agent on remote VMs to collect logs and push them to the main server.
+
+![ELK](/image/Screen Shot 2020-10-30 at 2.36.05 PM.png?raw=true "How it works")
      
 ## Requirements
    - RHEL7 or CentOS7 server/client with no modifications and t2.medium size
