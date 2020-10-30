@@ -4,7 +4,13 @@ Introduction
 
 The Elastic Stack — formerly known as the ELK Stack — is a collection of open-source software produced by Elastic which allows you to search, analyze, and visualize logs generated from any source in any format, a practice known as centralized logging. Centralized logging can be very useful when attempting to identify problems with your servers or applications, as it allows you to search through all of your logs in a single place. It’s also useful because it allows you to identify issues that span multiple servers by correlating their logs during a specific time frame.
 
-The Elastic Stack has four main components:
+## Other competing tools available in the market
+* Splunk
+* LogDNA
+* Sumo Logic
+* Loggly
+
+## The Elastic Stack has four main components:
 
   * Elasticsearch: a distributed RESTful search engine which stores all of the collected data.
   * Logstash: the data processing component of the Elastic Stack which sends incoming data to Elasticsearch.
@@ -30,12 +36,6 @@ Ansible Playbook for setting up the ELK/EFK Stack and Filebeat client on remote 
      * Installs FileBeat agent on remote VMs to collect logs and push them to the main server.
 
 ![ELK](/image/1.png?raw=true "How it works")
-
-## Other competing tools available in the market
-* Splunk
-* LogDNA
-* Sumo Logic
-* Loggly
      
 ## Requirements
    - RHEL7 or CentOS7 server/client with no modifications and t2.medium size
