@@ -6,12 +6,10 @@ The Elastic Stack — formerly known as the ELK Stack — is a collection of ope
 
 The Elastic Stack has four main components:
 
-Elasticsearch: a distributed RESTful search engine which stores all of the collected data.
-Logstash: the data processing component of the Elastic Stack which sends incoming data to Elasticsearch.
-
-Kibana: a web interface for searching and visualizing logs.
-
-Beats: lightweight, single-purpose data shippers that can send data from hundreds or thousands of machines to either Logstash or Elasticsearch.
+  * Elasticsearch: a distributed RESTful search engine which stores all of the collected data.
+  * Logstash: the data processing component of the Elastic Stack which sends incoming data to Elasticsearch.
+  * Kibana: a web interface for searching and visualizing logs.
+  * Beats: lightweight, single-purpose data shippers that can send data from hundreds or thousands of machines to either Logstash or Elasticsearch.
 
 Here you will install the Elastic Stack on a CentOS 7 server. You will learn how to install all of the components of the Elastic Stack — including Filebeat, a Beat used for forwarding and centralizing logs and files — and configure them to gather and visualize system logs. Additionally, because Kibana is normally only available on the localhost, you will use Nginx to proxy it so it will be accessible over a web browser. At the end of this tutorial, you will have Elasticsearch, Kibana and Logstash on a  server, referred to as the Elastic Stack server, and Filebeat to push logs on the remote server.
 
